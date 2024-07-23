@@ -67,6 +67,7 @@ de la misma forma que el atributo class de HTML:
 Luego escribes las reglas CSS para esa clase en un archivo CSS aparte:
 
 /* Esto va En El CSS */
+
 .avatar {
 border-radius: 50%;
 }
@@ -221,3 +222,31 @@ return (
 <button onClick={onClick}>
 Hiciste clic {count} veces
 </button>
+
+<h3> Ejemplo Funcional de lo anterior: </h3>
+
+import React, { useState } from 'react';
+
+function Contador() {
+  const [contador, setContador] = useState(0);
+
+  const incrementar = () => {
+    setContador(contador + 1);
+  };
+
+  const decrementar = () => {
+    setContador(contador - 1);
+  };
+
+  return (
+    <div>
+      <h1>Contador</h1>
+      <p>Valor actual: {contador}</p>
+      <button onClick={incrementar}>Incrementar</button>
+      <button onClick={decrementar}>Decrementar</button>
+    </div>
+  );
+}
+
+export default Contador;
+
