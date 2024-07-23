@@ -59,6 +59,7 @@ return (
 }
 
 <h3>Añadir estilos </h3>
+
 En React, especificas una clase de CSS con className. Funciona
 de la misma forma que el atributo class de HTML:
 
@@ -71,6 +72,7 @@ border-radius: 50%;
 }
 
 <h5> Mostrar datos </h5>
+
 JSX te permite poner marcado dentro de JavaScript. 
 Las llaves te permiten «escapar de nuevo» hacia 
 JavaScript de forma tal que puedas incrustar una variable 
@@ -100,9 +102,11 @@ height: user.imageSize
 }}
 
 <h3> Renderizado condicional </h3>
+
 En React, no hay una sintaxis especial para escribir condicionales. En cambio, usarás las 
 mismas técnicas que usas al escribir código regular de 
 JavaScript. Por ejemplo, puedes usar una sentencia if para incluir JSX condicionalmente:
+
 
 <h5> Si prefieres un código más compacto, puedes utilizar el operador ?condicional. A diferencia de if, funciona dentro de JSX: </h5>
 
@@ -134,6 +138,7 @@ return (
 </div>
 
 <h3>Renderizado De Listas</h3>
+
 Dependerás de funcionalidades de JavaScript como los bucles for y la función map() de
 los arreglos para renderizar listas de componentes.
 Por ejemplo, digamos que tienes un arreglo de productos:
@@ -158,6 +163,7 @@ return (
 );
 
 <h3>Responder  A Eventos</h3>
+
 Puedes responder a eventos declarando funciones controladoras de eventos dentro de tus componentes:
 
 function MyButton() {
@@ -173,6 +179,7 @@ Hazme clic
 }
 
 <h3>Actualizar Pantalla</h3>
+
 A menudo, querrás que tu componente «recuerde» alguna información y la muestre. Por ejemplo,
 quizá quieras contar el número de veces que hiciste clic en un botón. Para lograrlo, añade estado a tu componente.
 Primero, importa useState de React:
@@ -186,6 +193,7 @@ const [count, setCount] = useState(0);
 // ...
 
 <h3>El uso De hooks</h3>
+
 Las funciones que comienzan con use se llaman Hooks. useState es un Hook nativo dentro de React. Puedes
 encontrar otros Hooks nativos en la referencia de la API de React. También puedes escribir tus propios Hooks mediante la combinación de otros existentes.
 Los Hooks son más restrictivos que las funciones regulares. Solo puedes llamar a
