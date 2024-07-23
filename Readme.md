@@ -25,7 +25,7 @@ Además, React sigue el principio de unidireccionalidad de datos,
 lo que significa que el flujo de datos tiene una dirección única, facilitando
 la gestión del estado de la aplicación y mejorando la predictibilidad del flujo de datos.
 
-<h5> Crear y anidar componentes: </h5>
+<h3> Crear y anidar componentes: </h3>
 function MyButton() {
 return (
 <button>Soy un botón</button>
@@ -71,7 +71,7 @@ Luego escribes las reglas CSS para esa clase en un archivo CSS aparte:
 border-radius: 50%;
 }
 
-<h5> Mostrar datos </h5>
+<h3> Mostrar datos </h3>
 
 JSX te permite poner marcado dentro de JavaScript. 
 Las llaves te permiten «escapar de nuevo» hacia 
