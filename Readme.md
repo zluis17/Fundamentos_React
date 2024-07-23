@@ -25,7 +25,7 @@ Además, React sigue el principio de unidireccionalidad de datos,
 lo que significa que el flujo de datos tiene una dirección única, facilitando
 la gestión del estado de la aplicación y mejorando la predictibilidad del flujo de datos.
 
-#### Crear y anidar componentes:
+<h5> Crear y anidar componentes: </h5>
 function MyButton() {
 return (
 <button>Soy un botón</button>
