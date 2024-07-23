@@ -223,8 +223,7 @@ return (
 Hiciste clic {count} veces
 </button>
 
-<h3> Ejemplo Funcional de lo anterior: </h3>
-
+<h3> Ejemplo Funcional de lo anterior: </h3
 import React, { useState } from 'react';
 
 function Contador() {
